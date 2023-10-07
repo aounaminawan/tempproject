@@ -40,7 +40,7 @@ class MyAppExt extends StatefulWidget {
 }
 
 class _MyAppExtState extends State<MyAppExt> {
-  String buttonName = 'Click';
+  String buttonName = 'Click'; // Adding a variable2.
   int myCurrentIndex = 0; // Adding a variable.
   @override // comment3
   Widget build(BuildContext context) {
